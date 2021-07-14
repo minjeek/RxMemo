@@ -7,7 +7,7 @@
 
 import UIKit
 
-class MomoDetailViewController: UIViewController, ViewModelBindableType {
+class MemoDetailViewController: UIViewController, ViewModelBindableType {
 
     var viewModel: MemoDetailViewModel!
     
