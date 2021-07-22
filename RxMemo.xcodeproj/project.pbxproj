@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0BF25BDA382BD8925CFE1E13 /* Pods_RxMemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FAD8FA9D186AFA45ACF0EA /* Pods_RxMemoTests.framework */; };
 		27E358B6DB1A667C95D24AE1 /* Pods_RxMemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E0A7E6CC97E05D757D6A49D /* Pods_RxMemo.framework */; };
+		3B3320DA26A6B5D400553D8B /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3320D926A6B5D400553D8B /* ViewModel.swift */; };
 		3F5920DA500CC781611062B4 /* Pods_RxMemo_RxMemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E2EFC0D24BB1A0EDC27244B /* Pods_RxMemo_RxMemoUITests.framework */; };
 		F5062A7F269E6DF9006F338D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5062A7E269E6DF9006F338D /* AppDelegate.swift */; };
 		F5062A81269E6DF9006F338D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5062A80269E6DF9006F338D /* SceneDelegate.swift */; };
@@ -53,6 +54,7 @@
 
 /* Begin PBXFileReference section */
 		32FAD8FA9D186AFA45ACF0EA /* Pods_RxMemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxMemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B3320D926A6B5D400553D8B /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		48051AA6BCE4B3A9BF3FEECB /* Pods-RxMemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMemo.debug.xcconfig"; path = "Target Support Files/Pods-RxMemo/Pods-RxMemo.debug.xcconfig"; sourceTree = "<group>"; };
 		537CBBECB20FA6547A596DED /* Pods-RxMemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMemoTests.debug.xcconfig"; path = "Target Support Files/Pods-RxMemoTests/Pods-RxMemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6E0A7E6CC97E05D757D6A49D /* Pods_RxMemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxMemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -225,6 +227,7 @@
 				F5062AC4269E86F2006F338D /* MemoListViewModel.swift */,
 				F5062AC6269E872E006F338D /* MemoDetailViewModel.swift */,
 				F5062AC8269E8760006F338D /* MemoComposeViewModel.swift */,
+				3B3320D926A6B5D400553D8B /* ViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -514,6 +517,7 @@
 				F5062AC1269E80A2006F338D /* MemoDetailViewController.swift in Sources */,
 				F5062AB6269E7666006F338D /* MemoStorageType.swift in Sources */,
 				F5062A7F269E6DF9006F338D /* AppDelegate.swift in Sources */,
+				3B3320DA26A6B5D400553D8B /* ViewModel.swift in Sources */,
 				F5062AD1269E8AFE006F338D /* SceneCoordinatorType.swift in Sources */,
 				F5062AC5269E86F2006F338D /* MemoListViewModel.swift in Sources */,
 				F5062AC7269E872E006F338D /* MemoDetailViewModel.swift in Sources */,
