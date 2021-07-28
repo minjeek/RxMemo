@@ -21,7 +21,7 @@ class SceneCoordinator: SceneCoordinatorType {
     }
     
     @discardableResult
-    func transition(to scene: Scene, using style: TransitionStyle, animated: Bool) -> Completable {
+    func transition(to scene: Scene, using style: TransitionStyle, animated: Bool) -> Observable<Never> {
         
         let subject = PublishSubject<Void>()
         
@@ -72,6 +72,7 @@ class SceneCoordinator: SceneCoordinatorType {
                 completable(.error(TransitionError.unknown))
             }
             
+            return Disposables.create()
         }
     }
     

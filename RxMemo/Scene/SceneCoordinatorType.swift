@@ -10,7 +10,7 @@ import RxSwift
 
 protocol SceneCoordinatorType {
     @discardableResult
-    func transition(to scene: Scene, using style: TransitionStyle, animated: Bool) -> Completable
+    func transition(to scene: Scene, using style: TransitionStyle, animated: Bool) -> Observable<Never>
     
     @discardableResult
     func close(animated: Bool) -> Completable
